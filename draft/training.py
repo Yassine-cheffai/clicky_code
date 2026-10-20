@@ -52,7 +52,7 @@ class Computer(Product):
         raise MissingPriceError("a computer must have a price")
 
 
-# client code
+# client/external code
 try:
     c = Computer(60)
     c.price = 20
