@@ -1,0 +1,19 @@
+[project]
+name = "clickycode"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "arcade>=3.3.3",
+    "ipykernel>=7.3.0",
+    "matplotlib>=3.10.8",
+    "mypy>=2.1.0",
+    "pydantic>=2.13.5",
+    "setuptools>=84.0.0",
+    "ursina>=8.3.0",
+]
+
+[tool.uv.workspace]
+members = [
+    "python projects/2d_game",
+]
